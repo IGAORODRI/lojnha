@@ -43,7 +43,7 @@ async function insertProduct (image, name, description, price, promocionalPrice,
 
 async function editProduct (id, image, name, description, price, promocionalPrice, seller, category, tag01, color01, color02, color03, size01, size02, size03, size04, size05){
     console.log("Cá entrou: ")
-    const conexao = await fetch("https://lojnha.vercel.app/products, {
+    const conexao = await fetch("https://lojnha.vercel.app/products", {
         method: "PATCH",
         headers: {"Content-Type": "application/json"},
         body: JSON.stringify({
