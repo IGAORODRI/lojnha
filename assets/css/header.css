@@ -44,7 +44,7 @@
     width: 144px;
     height: 197px;
     align-self: baseline;
-    opacity: 0;
+    opacity: 1;
     visibility: hidden;
     transition: opacity 0.3s ease, visibility 0.3s ease;
     position: fixed;
